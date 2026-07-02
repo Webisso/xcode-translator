@@ -1,0 +1,6 @@
+"welcome.title" = "Hoş Geldiniz";
+"welcome.subtitle" = "%@ ile başlayın";
+"button.save" = "Kaydet";
+"button.cancel" = "İptal";
+"button.delete" = "%d öğeyi sil";
+"error.network" = "Ağ hatası. Lütfen tekrar deneyin.";

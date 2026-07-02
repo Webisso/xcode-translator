@@ -1,0 +1,10 @@
+/* Welcome screen */
+"welcome.title" = "Welcome";
+"welcome.subtitle" = "Get started with %@";
+
+// Buttons
+"button.save" = "Save";
+"button.cancel" = "Cancel";
+"button.delete" = "Delete %d items";
+
+"error.network" = "Network error. Please try again.";
