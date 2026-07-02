@@ -1,6 +1,47 @@
 # Xcode Translator
 
-A CLI tool that translates Xcode `Localizable.strings` files using Google Gemini AI. Run it from your iOS/macOS project directory, point it at a source language, and it writes properly formatted target `.lproj` files — preserving keys, comments, format specifiers, and structure.
+<p align="center">
+  <a href="https://github.com/Webisso/xcode-translator/stargazers">
+    <img src="https://img.shields.io/github/stars/Webisso/xcode-translator?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/Webisso/xcode-translator/network/members">
+    <img src="https://img.shields.io/github/forks/Webisso/xcode-translator?style=for-the-badge&logo=github&color=orange" alt="GitHub Forks"/>
+  </a>
+  <a href="https://github.com/Webisso/xcode-translator/releases">
+    <img src="https://img.shields.io/github/v/release/Webisso/xcode-translator?style=for-the-badge&logo=github&color=blue" alt="Latest Release"/>
+  </a>
+  <a href="https://github.com/Webisso/xcode-translator/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Webisso/xcode-translator?style=for-the-badge&color=green" alt="License"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Webisso/xcode-translator/issues">
+    <img src="https://img.shields.io/github/issues/Webisso/xcode-translator?style=flat-square&logo=github" alt="Open Issues"/>
+  </a>
+  <a href="https://github.com/Webisso/xcode-translator/pulls">
+    <img src="https://img.shields.io/github/issues-pr/Webisso/xcode-translator?style=flat-square&logo=github" alt="Open Pull Requests"/>
+  </a>
+  <a href="https://github.com/Webisso/xcode-translator/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Webisso/xcode-translator?style=flat-square&logo=github" alt="Last Commit"/>
+  </a>
+  <a href="https://github.com/Webisso/xcode-translator">
+    <img src="https://img.shields.io/github/repo-size/Webisso/xcode-translator?style=flat-square&logo=github" alt="Repo Size"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Webisso-xcode-translator&label=visitors&color=0e75b6&style=flat-square" alt="Visitors"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-%3E%3D18-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Gemini-AI-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Gemini"/>
+  <img src="https://img.shields.io/badge/Xcode-Localization-147EFB?style=flat-square&logo=xcode&logoColor=white" alt="Xcode"/>
+</p>
+
+<p align="center">
+  A CLI tool that translates Xcode <code>Localizable.strings</code> files using Google Gemini AI.<br/>
+  Run it from your iOS/macOS project directory, point it at a source language, and it writes properly formatted target <code>.lproj</code> files — preserving keys, comments, format specifiers, and structure.
+</p>
 
 ## Features
 
@@ -22,7 +63,7 @@ A CLI tool that translates Xcode `Localizable.strings` files using Google Gemini
 Clone and build the CLI:
 
 ```bash
-git clone <repo-url> xcode-translator
+git clone https://github.com/Webisso/xcode-translator.git
 cd xcode-translator
 npm install
 npm run build
@@ -197,4 +238,4 @@ Make sure you run the CLI from your Xcode project root (or pass `-c`). The tool 
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
